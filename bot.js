@@ -38,7 +38,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send("#rep "+"@! Mustafa")
+        message.channel.send("#rep "+"@! Mustafa#1410 ")
     }
 });
 
