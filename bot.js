@@ -59,7 +59,7 @@ bot.on('message', message => {
   
   let args = message.content.split(" ").slice(1);
   let x = args.join(" ")
-    if(message.content.startsWith(prefix + 'trans')) {
+    if(message.content.startsWith(prefix + 'a2')) {
         message.channel.send(''+x);
             message.delete(999)
     }
