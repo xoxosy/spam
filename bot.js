@@ -1,7 +1,7 @@
 const discord = require("discord.js");
 const randomWord = require("random-words")
 
-const TOKEN = "token"; 
+const TOKEN = "NTUwMDMyODE0ODQ2OTAyMjcy.D1clpA.bMWylwECTx-wfwWPask9OkSkoXs"; 
  
 const bot = new discord.Client();
 
