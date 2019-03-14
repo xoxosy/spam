@@ -13,7 +13,7 @@ function startspam()
 {
     console.log("Spam starting!")
     var server = bot.guilds.get("548872104813264907");
-    var chan = new discord.TextChannel(server,{"id":"548872104813264909"});
+    var chan = new discord.TextChannel(server,{"id":"550386204806348808"});
     spam = bot.setInterval(()=>
     {
         chan.send(randomWord()).then(msg=>{ // Sticking with randomwords.
