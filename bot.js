@@ -20,7 +20,7 @@ function startspam()
             console.log(msg.content);
         });
  
-    },1000);
+    },30000);
 }
 
 function stopspam()
